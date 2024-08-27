@@ -49,6 +49,7 @@ ToggleDeskFan() {
     Send("{Space}")
 }
 
+
 ; bonus
 ToggleMask() {
     TempFun() {

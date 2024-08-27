@@ -2,15 +2,13 @@
 #Include resources\game_actions.ahk
 #Include util\script_controls.ahk
 
-
 SendMode "Event"
 SetKeyDelay(50, 50)
-
 
 window_title := "Ultimate Custom Night"
 
 
-; key assignent
+; key assignents
 ; uncomment this and modify keys / functions if you want to use tab as a hotkey
 ; #HotIf WinActive(window_title) and not GetKeyState("Alt")
 ; Tab::Enter
