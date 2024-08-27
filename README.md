@@ -57,7 +57,7 @@ Afterwards, simply run the main script and you're good to go.
 ### Troubleshooting
 
 The mod works with locations on the screen instead of directly interacting with the objects in the game. Therefore, if you're using this on a monitor with a different resolution some shortcuts might not work.
-All positions adapt to different resolutions, but depending on how the game treats the rescaling process some positions may be slightly off. In that case, feel free to modify the positions at the top of the file, if at all they should be only slightly off and only small adjustments should be needed to get everything working again.
+All positions adapt to different resolutions, but depending on how the game treats the rescaling process some positions may be slightly off. In that case, feel free to modify the positions at the top of the game_actions.ahk file in the util directory, if at all they should be only slightly off and only small adjustments should be needed to get everything working again.
 
 If you're playing on a monitor with 1920x1080 resolution everything should work perfectly regardless.
 
@@ -65,6 +65,7 @@ If you're playing on a monitor with 1920x1080 resolution everything should work 
 
 If you enjoyed this, feel free to check out my other quality-of-life tools, all free and open-source as well, no ads and no nonsense.
 
+- _papers-please-shortcuts-mod_: https://github.com/JohnStephens1/papers-please-shortcuts-mod
 - _ShutDownEr_: https://github.com/JohnStephens1/ShutDownEr
 - _Timerrhymer_: https://github.com/JohnStephens1/Timerrhymer
 - _4Focus_: https://github.com/JohnStephens1/4Focus
