@@ -10,3 +10,4 @@ dist/
 *.spec
 
 all actions.txt
+toy_script.ahk
