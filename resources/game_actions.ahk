@@ -68,7 +68,7 @@ ResetVentilation() {
 }
 
 
-enter_cam_system() {
+EnterCamSystem() {
     TempFun() {
         Click(cam_system_pos*)
     }
@@ -76,7 +76,7 @@ enter_cam_system() {
     MouseWrapper(TempFun)
 }
 
-enter_vent_system() {
+EnterVentSystem() {
     TempFun() {
         Click(vent_system_pos*)
     }
@@ -84,7 +84,7 @@ enter_vent_system() {
     MouseWrapper(TempFun)
 }
 
-enter_duct_system() {
+EnterDuctSystem() {
     TempFun() {
         Click(duct_system_pos*)
     }

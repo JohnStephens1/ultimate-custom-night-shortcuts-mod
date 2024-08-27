@@ -39,8 +39,8 @@ SetMouseDelay(0)
 e::ToggleMask()
 r::ResetVentilation()
 
-+1::enter_cam_system()
-+2::enter_vent_system()
-+3::enter_duct_system()
++1::EnterCamSystem()
++2::EnterVentSystem()
++3::EnterDuctSystem()
 SendMode "Event"
 #HotIf
