@@ -10,34 +10,39 @@ SetKeyDelay(50, 50)
 window_title := "Ultimate Custom Night"
 
 
-;key assignent
+; key assignent
+; uncomment this and modify keys / functions if you want to use tab as a hotkey
 ; #HotIf WinActive(window_title) and not GetKeyState("Alt")
 ; Tab::Enter
 ; #HotIf
 
 #HotIf WinActive(window_title)
-;doors
+; doors
 a::ToggleLeftDoor()
 d::ToggleRightDoor()
 
-;vents
+; vents
 y::ToggleForwardVent()
 z::ToggleForwardVent()
 f::ToggleSideVent()
 
-;other
+; other
 s::ToggleFlashlight()
 w::ToggleMonitor()
 Space::ToggleDeskFan()
 
-;bonus
+; random
+c::CatchFish()
+q::CloseAd()
+
+; bonus
 SendMode "Input"
 SetMouseDelay(0)
 e::ToggleMask()
 r::ResetVentilation()
-SendMode "Event"
 
-;random
-c::CatchFish()
-q::CloseAd()
++1::enter_cam_system()
++2::enter_vent_system()
++3::enter_duct_system()
+SendMode "Event"
 #HotIf
