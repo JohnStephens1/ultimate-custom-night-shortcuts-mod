@@ -1,12 +1,13 @@
 #Requires AutoHotkey v2.0
 #Include ../util/mouse_wrapper.ahk
+#Include ../util/screen_helper.ahk
 
-mask_pos := [650, 1000]
-reset_ventilation_pos := [1600, 900]
+mask_pos := Relativy_pos([650, 1000])
+reset_ventilation_pos := Relativy_pos([1600, 900])
 
-cam_system_pos := [1400, 150]
-vent_system_pos := [1400, 250]
-duct_system_pos := [1400, 350]
+cam_system_pos := Relativy_pos([1400, 150])
+vent_system_pos := Relativy_pos([1400, 250])
+duct_system_pos := Relativy_pos([1400, 350])
 
 
 ; native
