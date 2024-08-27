@@ -3,11 +3,15 @@
 
 mask_pos := [650, 1000]
 reset_ventilation_pos := [1600, 900]
+flashlight_key := "s"
 
 
 ;native
 ToggleFlashlight() {
-    Send("z")
+    Send("{z Down}")
+    While GetKeyState(flashlight_key, "P")
+        Sleep 10
+    Send("{z Up}")
 }
 
 ToggleForwardVent() {
@@ -35,15 +39,15 @@ CatchFish() {
 }
 
 CloseAd() {
-    Send("Enter")
+    Send("{Enter}")
 }
 
 ToggleDeskFan() {
-    Send("Space")
+    Send("{Space}")
 }
 
 ;bonus
-PutOnMask() {
+ToggleMask() {
     TempFun() {
         MouseMove(mask_pos[1], mask_pos[2], 0)
     }
