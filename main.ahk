@@ -22,6 +22,7 @@ d::ToggleRightDoor()
 
 ;vents
 y::ToggleForwardVent()
+z::ToggleForwardVent()
 f::ToggleSideVent()
 
 ;other
